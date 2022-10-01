@@ -1,0 +1,283 @@
+PCM devices:
+
+Name of device: null
+Description of device: Discard all samples (playback) or generate zero samples (capture)
+I/O type of device: (null)
+
+Name of device: lavrate
+Description of device: Rate Converter Plugin Using Libav/FFmpeg Library
+I/O type of device: (null)
+
+Name of device: samplerate
+Description of device: Rate Converter Plugin Using Samplerate Library
+I/O type of device: (null)
+
+Name of device: speexrate
+Description of device: Rate Converter Plugin Using Speex Resampler
+I/O type of device: (null)
+
+Name of device: jack
+Description of device: JACK Audio Connection Kit
+I/O type of device: (null)
+
+Name of device: oss
+Description of device: Open Sound System
+I/O type of device: (null)
+
+Name of device: pulse
+Description of device: PulseAudio Sound Server
+I/O type of device: (null)
+
+Name of device: upmix
+Description of device: Plugin for channel upmix (4,6,8)
+I/O type of device: (null)
+
+Name of device: vdownmix
+Description of device: Plugin for channel downmix (stereo) with a simple spacialization
+I/O type of device: (null)
+
+Name of device: default
+Description of device: Playback/recording through the PulseAudio sound server
+I/O type of device: (null)
+
+Name of device: hw:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Direct hardware device without any conversions
+I/O type of device: (null)
+
+Name of device: hw:CARD=PCH,DEV=2
+Description of device: HDA Intel PCH, ALC887-VD Alt Analog
+Direct hardware device without any conversions
+I/O type of device: Input
+
+Name of device: plughw:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Hardware device with all software conversions
+I/O type of device: (null)
+
+Name of device: plughw:CARD=PCH,DEV=2
+Description of device: HDA Intel PCH, ALC887-VD Alt Analog
+Hardware device with all software conversions
+I/O type of device: Input
+
+Name of device: sysdefault:CARD=PCH
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Default Audio Device
+I/O type of device: (null)
+
+Name of device: front:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Front output / input
+I/O type of device: (null)
+
+Name of device: surround21:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+2.1 Surround output to Front and Subwoofer speakers
+I/O type of device: Output
+
+Name of device: surround40:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+4.0 Surround output to Front and Rear speakers
+I/O type of device: Output
+
+Name of device: surround41:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+4.1 Surround output to Front, Rear and Subwoofer speakers
+I/O type of device: Output
+
+Name of device: surround50:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+5.0 Surround output to Front, Center and Rear speakers
+I/O type of device: Output
+
+Name of device: surround51:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+5.1 Surround output to Front, Center, Rear and Subwoofer speakers
+I/O type of device: Output
+
+Name of device: surround71:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+7.1 Surround output to Front, Center, Side, Rear and Woofer speakers
+I/O type of device: Output
+
+Name of device: dmix:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dsnoop:CARD=PCH,DEV=0
+Description of device: HDA Intel PCH, ALC887-VD Analog
+Direct sample snooping device
+I/O type of device: Input
+
+Name of device: dsnoop:CARD=PCH,DEV=2
+Description of device: HDA Intel PCH, ALC887-VD Alt Analog
+Direct sample snooping device
+I/O type of device: Input
+
+Name of device: usbstream:CARD=PCH
+Description of device: HDA Intel PCH
+USB Stream Output
+I/O type of device: (null)
+
+Name of device: hw:CARD=U0x46d0x9a1,DEV=0
+Description of device: USB Device 0x46d:0x9a1, USB Audio
+Direct hardware device without any conversions
+I/O type of device: Input
+
+Name of device: plughw:CARD=U0x46d0x9a1,DEV=0
+Description of device: USB Device 0x46d:0x9a1, USB Audio
+Hardware device with all software conversions
+I/O type of device: Input
+
+Name of device: sysdefault:CARD=U0x46d0x9a1
+Description of device: USB Device 0x46d:0x9a1, USB Audio
+Default Audio Device
+I/O type of device: Input
+
+Name of device: front:CARD=U0x46d0x9a1,DEV=0
+Description of device: USB Device 0x46d:0x9a1, USB Audio
+Front output / input
+I/O type of device: Input
+
+Name of device: dsnoop:CARD=U0x46d0x9a1,DEV=0
+Description of device: USB Device 0x46d:0x9a1, USB Audio
+Direct sample snooping device
+I/O type of device: Input
+
+Name of device: usbstream:CARD=U0x46d0x9a1
+Description of device: USB Device 0x46d:0x9a1
+USB Stream Output
+I/O type of device: (null)
+
+Name of device: hw:CARD=NVidia,DEV=3
+Description of device: HDA NVidia, HDMI 0
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: hw:CARD=NVidia,DEV=7
+Description of device: HDA NVidia, HDMI 1
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: hw:CARD=NVidia,DEV=8
+Description of device: HDA NVidia, HDMI 2
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: hw:CARD=NVidia,DEV=9
+Description of device: HDA NVidia, HDMI 3
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: hw:CARD=NVidia,DEV=10
+Description of device: HDA NVidia, HDMI 4
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: hw:CARD=NVidia,DEV=11
+Description of device: HDA NVidia, HDMI 5
+Direct hardware device without any conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=3
+Description of device: HDA NVidia, HDMI 0
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=7
+Description of device: HDA NVidia, HDMI 1
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=8
+Description of device: HDA NVidia, HDMI 2
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=9
+Description of device: HDA NVidia, HDMI 3
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=10
+Description of device: HDA NVidia, HDMI 4
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: plughw:CARD=NVidia,DEV=11
+Description of device: HDA NVidia, HDMI 5
+Hardware device with all software conversions
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=0
+Description of device: HDA NVidia, HDMI 0
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=1
+Description of device: HDA NVidia, HDMI 1
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=2
+Description of device: HDA NVidia, HDMI 2
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=3
+Description of device: HDA NVidia, HDMI 3
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=4
+Description of device: HDA NVidia, HDMI 4
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: hdmi:CARD=NVidia,DEV=5
+Description of device: HDA NVidia, HDMI 5
+HDMI Audio Output
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=3
+Description of device: HDA NVidia, HDMI 0
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=7
+Description of device: HDA NVidia, HDMI 1
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=8
+Description of device: HDA NVidia, HDMI 2
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=9
+Description of device: HDA NVidia, HDMI 3
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=10
+Description of device: HDA NVidia, HDMI 4
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: dmix:CARD=NVidia,DEV=11
+Description of device: HDA NVidia, HDMI 5
+Direct sample mixing device
+I/O type of device: Output
+
+Name of device: usbstream:CARD=NVidia
+Description of device: HDA NVidia
+USB Stream Output
+I/O type of device: (null)
+
+MIDI devices:
+
+Name of device: virtual
+Description of device: (null)
+I/O type of device: (null)
+
