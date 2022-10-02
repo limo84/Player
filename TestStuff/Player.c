@@ -11,6 +11,7 @@ to the default PCM device for 5 seconds of data.
 #include <alsa/asoundlib.h>
 
 int main() {
+
   long loops;
   int rc;
   int size;
@@ -82,9 +83,16 @@ int main() {
    * period time */
   loops = 5000000 / val;
 
+
+
+
+  FILE *file = fopen("test.bin", "rb");
+
+
   while (loops > 0) {
     loops--;
-    rc = read(0, buffer, size);
+    // rc = read(0, buffer, size);
+    rc = fread(buffer, 1, size, file);
     if (rc == 0) {
       fprintf(stderr, "end of file on input\n");
       break;
@@ -110,6 +118,7 @@ int main() {
   snd_pcm_drain(handle);
   snd_pcm_close(handle);
   free(buffer);
+  fclose(file);
 
   return 0;
 }

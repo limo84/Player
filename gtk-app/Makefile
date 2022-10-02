@@ -6,10 +6,12 @@ INCLUDES := -I /usr/include/gtk-3.0/ -I /usr/include/glib-2.0/ -I usr/lib/glib-2
 LINK := -lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lcairo \
 			  -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0
 
+OPTIONS := -Wall -std=c11
+
 SOURCES := $(shell find . -name "*.c")
 
 all:
 	make app && ./app
 
 app: $(SOURCES)
-	gcc $(SOURCES) -o app $(INCLUDES) $(LINK)
+	gcc $(SOURCES) -o app $(INCLUDES) $(LINK) $(OPTIONS)
