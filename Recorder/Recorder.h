@@ -11,6 +11,8 @@ typedef struct {
   snd_pcm_hw_params_t *params;
   snd_pcm_format_t format;
 
+  FILE *file;
+
   unsigned int bitrate;
   char *buffer;
   int buffer_frames;
